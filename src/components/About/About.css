@@ -1,0 +1,80 @@
+#about-container{
+  /* display: flex; */
+  padding-top: 10px;
+  /* height:100vh;  */
+}
+
+.hidden{
+  opacity: 0;
+  transform: translateY(8rem)
+}
+
+.about{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(126, 213, 111, 0.7),
+    rgba(40, 180, 133, 0.95)
+  ),url(../../img/abique.jpeg);
+  background-position: center; 
+  background-size: cover;
+  height:100vh; 
+  clip-path: polygon(0 24%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.about-title{
+  font-size:4rem;
+  letter-spacing: 1.3rem;
+  color: white;
+  margin-top: 0;
+  padding: 0 .3rem 0 0;
+  opacity: 1;
+  transition: transform 1s, opacity 1s;
+}
+
+.about-paragraph{
+  background: rgba(0, 0, 0, 0.301);
+  color: white;
+  font-weight: normal;
+  letter-spacing: .3rem;
+  padding: 1rem;
+  margin: 0 1rem 0 1rem;
+  text-align:center; 
+  opacity: 1;
+  transition: transform 1s, opacity 1s;
+}
+
+.email{
+  color: white; 
+  text-decoration: none;
+}
+
+@media(max-width: 970px){
+  .about-paragraph{
+    overflow-y: scroll;
+    height: 50%;   
+  }
+}
+
+@media(max-width: 785px){
+  .about-title{
+    font-size: xx-large;
+  } 
+}
+
+@media(max-height: 640px){
+  .about-title{
+    font-size: xx-large;
+  }
+
+  .about-paragraph{
+    overflow-y: scroll;
+    height: 50%;
+  }
+}

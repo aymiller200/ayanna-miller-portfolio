@@ -1,0 +1,384 @@
+.hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(13, 202, 240, 0.75),
+      rgba(13, 202, 240, 0.75)
+    ),
+    url(../../img/dog.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+}
+
+.projects-title {
+  font-size: 4rem;
+  letter-spacing: 1.3rem;
+  color: white;
+  padding: 1rem;
+  opacity: 1;
+  transition: transform 1s, opacity 1s;
+}
+
+.project {
+  display: flex;
+  align-self: center;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 70vw;
+  height: 70%;
+  background: rgba(0, 0, 0, 0.301);
+  opacity: 1;
+  transition: transform 1s, opacity 1s;
+}
+
+.project-title {
+  align-self: flex-start;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  color: white;
+  margin-top: 0;
+  padding: 0.5rem 0 0 1.5rem;
+}
+
+
+.project-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  position: relative;
+  height: 100%;
+  padding: 1rem;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.site-link {
+  color: white;
+  text-decoration: none;
+}
+
+.site {
+  font-size: 4rem;
+  margin-left: 1rem;
+}
+
+.site:hover{
+  transform: scale(1.05);
+  transition: 0.2s ease-out;
+}
+
+.repo-link {
+  color: white;
+  text-decoration: none;
+}
+
+.github {
+  font-size: 4rem;
+  margin-left: 1rem;
+}
+
+.github:hover{
+  transform: scale(1.05);
+  transition: 0.2s ease-out;
+}
+
+.text-slide-container {
+  display: flex;
+  align-content: center;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  position: relative;
+  word-wrap: break-word;
+  width:55rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  height: 60%;
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.329);
+}
+
+
+.project-text {
+  color: white;
+  font-size: large;
+  letter-spacing: 0.2rem;
+  padding: 1rem;
+  margin: 1rem;  
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  transition: transform 1s;
+}
+
+.project-api-link {
+  text-decoration: none;
+  color: white;
+}
+
+.project-container {
+  display: flex;
+  justify-self: center;
+  width: 90%;
+  height: 70%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(126, 213, 111, 0.4),
+    rgba(40, 180, 133, 0.448)
+  );
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.301);
+}
+
+.slider-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  width: 100%;
+}
+
+.slider-left-container {
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.301);
+  /* z-index: 100; */
+}
+
+.slider-right-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.301);
+}
+
+.slider-left {
+  font-size: 3rem;
+  border-radius: 100%;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: linear-gradient(
+    to right bottom,
+    rgba(126, 213, 111, 0.4),
+    rgba(40, 180, 133, 0.448)
+  );
+  font-family: 'Gill Sans';
+  height: 15%;
+  margin: 0.5rem;
+}
+
+.slider-left:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.301);
+  transition: 0.3s ease-out;
+}
+
+.slider-right:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.301);
+  transition: 0.3s ease-out;
+}
+
+.slider-right {
+  font-size: 3rem;
+  border-radius: 100%;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: linear-gradient(
+    to right bottom,
+    rgba(126, 213, 111, 0.4),
+    rgba(40, 180, 133, 0.448)
+  );
+  font-family: 'Gill Sans';
+  height: 15%;
+  margin: 0.5rem;
+}
+
+@media (max-width: 1820px){
+  .text-slide-container {
+    width: 50rem;
+    height: 60%;
+  
+  }
+}
+@media (max-width: 1680px){
+  .text-slide-container {
+    width: 45rem;
+    height: 50%;
+    /* overflow-y: scroll; */
+  }
+}
+@media (max-width: 1540px){
+  .text-slide-container {
+    width: 40rem;
+    height: 60%;
+    /* overflow-y: scroll; */
+  }
+}
+
+@media (max-width: 1425px){
+  .text-slide-container {
+    width: 35rem;
+    height: 65%;
+    /* overflow-y: scroll; */
+  }
+}
+
+@media (max-width: 1290px){
+  .text-slide-container {
+    width: 30rem;
+    height: 65%;
+    /* overflow-y: scroll; */
+  }
+}
+
+@media (max-width: 1170px){
+  .text-slide-container {
+    width: 25rem;
+    height: 65%;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 1040px){
+  .text-slide-container {
+    width: 20rem;
+    height: 60%;
+    overflow-y: scroll;
+  }
+}
+
+
+@media (max-width: 910px){
+  .text-slide-container {
+    width: 20rem;
+    height: 65%;
+    overflow-y: scroll;
+  }
+}
+
+
+@media (max-width: 860px) {
+  .project-text-container {
+    padding: 0.3rem;
+  }
+}
+
+@media (max-width: 790px) {
+  .projects-title {
+    font-size: xx-large;
+  }
+
+  .text-slide-container {
+    width: 30rem;
+    height: 100%;
+    margin: auto;
+    /* overflow-y: scroll; */
+  }
+
+  .projects-container {
+    width: 100%;
+  }
+
+  .project-title {
+    font-size: x-large;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .project-text-container {
+    width: 100%;
+    height: 90%;
+    /* overflow: scroll; */
+    display: block;
+  }
+
+  .links {
+    justify-content: center;
+  }
+
+  .project-text {
+    font-size: normal;
+    letter-spacing: 0;
+    padding: 0;
+  }
+
+  .slider-container {
+    overflow: hidden;
+  }
+
+  .slider-left {
+    font-size: xx-large;
+  }
+
+  .slider-right {
+    font-size: xx-large;
+  }
+  .site {
+    font-size: 3rem;
+    margin: auto;
+    padding: 5px;
+  }
+
+  .github {
+    font-size: 3rem;
+    margin: auto;
+    padding: 5px;
+  }
+
+}
+
+@media(max-width: 775px){
+
+  .text-slide-container {
+    width: 25rem;
+    height: 100%;
+    margin: auto;
+    /* overflow-y: scroll; */
+  }
+
+  .project{
+    height: 100%;
+  }
+
+
+}
+
+@media(max-width: 685px){
+
+  .text-slide-container {
+    width: 20rem;
+    /* height: 40%; */
+    margin: auto;
+    /* overflow-y: scroll; */
+  }
+ 
+}
+
+@media(max-width: 595px){
+
+  .text-slide-container {
+    width: 70%;
+    height: 100%;
+   
+    /* margin: auto; */
+    overflow-y: scroll;
+  }
+}

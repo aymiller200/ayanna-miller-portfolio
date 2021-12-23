@@ -1,0 +1,135 @@
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  margin: 0%;
+  list-style: none;
+  animation: fadeIn 1.5s ease-out;
+   backface-visibility: hidden;
+}
+
+.nav-list 
+.sticky{
+  position: fixed !important;
+  z-index: 100;
+  /* backface-visibility: hidden !important; */
+}
+
+.nav-item {
+  margin: 0.5rem 0.9rem 0 1.8rem;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  justify-self: flex-end;
+  
+}
+
+.nav-item:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+
+.item-link{
+  text-decoration: none;
+  color: white;
+}
+
+.menu-button {
+  display: none;
+}
+
+@media (max-width: 870px) {
+  .nav-list {
+    display: none;
+  }
+
+  .nav-list--small {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.301);
+    top: 8%;
+    right: 0;
+    z-index: 100;
+    margin: 10px;
+    padding: 0%;
+    list-style: none;
+    animation: fadeIn .5s ease-out
+  }
+
+  .menu-button {
+    display: block;
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+    font-size: 2.5rem;
+    background: rgba(0, 0, 0, 0.438);
+    color: rgba(255, 255, 255, 0.911);
+    padding: 8px;
+    border-radius: 100%;
+    margin: 15px;
+    animation: fadeIn 1.5s ease-out
+  }
+  .menu-button:hover {
+    color: rgba(0, 0, 0, 0.438);
+    background: rgba(255, 255, 255, 0.911);
+    transition: 0.3s ease-out;
+    cursor: pointer;
+  }
+  .nav-item{
+    margin: 1rem;
+  }
+
+  .home{
+    margin: 10px;
+  }
+}
+
+.home{
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  color: white !important;
+  font-size: xx-large;
+  transition: ease-in;
+  padding: 10px;
+  opacity: 0.95;
+  animation: fadeIn .5s ease-out
+}
+
+.home:hover{
+  cursor: pointer;
+}
+
+.home-hidden{
+  display: none;
+  opacity: 0;
+}
+
+@media(max-width: 430px){
+  .nav-list--small{
+    top: 10%
+  }
+
+
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

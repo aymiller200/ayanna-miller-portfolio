@@ -1,0 +1,17 @@
+.about-corner{
+  height: 28vh;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(13, 202, 240, 0.75),
+      rgba(13, 202, 240, 0.75)
+    ),
+    url(../../img/abique.jpeg);
+  background-position: top;
+  background-size: cover;
+  margin: 0px 10px;
+  clip-path: polygon(97% 0, 0 75%, 0 0);
+
+}

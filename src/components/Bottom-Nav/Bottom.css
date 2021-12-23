@@ -1,0 +1,18 @@
+.bottom-container {
+  height: 28vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(126, 213, 111, 0.7),
+      rgba(40, 180, 133, 0.95)
+    ),
+    url(../../img/code.jpg);
+  background-position: right;
+  background-size: cover;
+  margin: 0px 0px 0px 10px;
+  
+  clip-path: polygon(0 20%, 46% 58%, 96% 100%, 0 100%);
+}
