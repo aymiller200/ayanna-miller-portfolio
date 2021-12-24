@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ayanna-miller-portfolio/static/css/main.e258cc7d.chunk.css",
-    "main.js": "/ayanna-miller-portfolio/static/js/main.90c7d9d2.chunk.js",
-    "main.js.map": "/ayanna-miller-portfolio/static/js/main.90c7d9d2.chunk.js.map",
+    "main.css": "/ayanna-miller-portfolio/static/css/main.ae1c5ce7.chunk.css",
+    "main.js": "/ayanna-miller-portfolio/static/js/main.b6f10790.chunk.js",
+    "main.js.map": "/ayanna-miller-portfolio/static/js/main.b6f10790.chunk.js.map",
     "runtime-main.js": "/ayanna-miller-portfolio/static/js/runtime-main.a6e2acfd.js",
     "runtime-main.js.map": "/ayanna-miller-portfolio/static/js/runtime-main.a6e2acfd.js.map",
-    "static/js/2.456af7b2.chunk.js": "/ayanna-miller-portfolio/static/js/2.456af7b2.chunk.js",
-    "static/js/2.456af7b2.chunk.js.map": "/ayanna-miller-portfolio/static/js/2.456af7b2.chunk.js.map",
+    "static/js/2.ddd0e40d.chunk.js": "/ayanna-miller-portfolio/static/js/2.ddd0e40d.chunk.js",
+    "static/js/2.ddd0e40d.chunk.js.map": "/ayanna-miller-portfolio/static/js/2.ddd0e40d.chunk.js.map",
     "index.html": "/ayanna-miller-portfolio/index.html",
-    "static/css/main.e258cc7d.chunk.css.map": "/ayanna-miller-portfolio/static/css/main.e258cc7d.chunk.css.map",
-    "static/js/2.456af7b2.chunk.js.LICENSE.txt": "/ayanna-miller-portfolio/static/js/2.456af7b2.chunk.js.LICENSE.txt",
+    "static/css/main.ae1c5ce7.chunk.css.map": "/ayanna-miller-portfolio/static/css/main.ae1c5ce7.chunk.css.map",
+    "static/js/2.ddd0e40d.chunk.js.LICENSE.txt": "/ayanna-miller-portfolio/static/js/2.ddd0e40d.chunk.js.LICENSE.txt",
     "static/media/AyannaMiller2021.61c53bf8.pdf": "/ayanna-miller-portfolio/static/media/AyannaMiller2021.61c53bf8.pdf",
     "static/media/AboutCorner.css": "/ayanna-miller-portfolio/static/media/abique.3e12d01f.jpeg",
-    "static/media/Header.css": "/ayanna-miller-portfolio/static/media/code.9cdb9629.jpg",
+    "static/media/Nav.css": "/ayanna-miller-portfolio/static/media/code.9cdb9629.jpg",
     "static/media/Projects.css": "/ayanna-miller-portfolio/static/media/dog.3b006716.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.a6e2acfd.js",
-    "static/js/2.456af7b2.chunk.js",
-    "static/css/main.e258cc7d.chunk.css",
-    "static/js/main.90c7d9d2.chunk.js"
+    "static/js/2.ddd0e40d.chunk.js",
+    "static/css/main.ae1c5ce7.chunk.css",
+    "static/js/main.b6f10790.chunk.js"
   ]
 }
