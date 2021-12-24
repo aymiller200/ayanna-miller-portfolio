@@ -1,13 +1,13 @@
+import './Header.css'
+import '../components/Nav/NavList.css'
+
 import { useEffect, useState } from 'react'
 import { HiOutlineMenu } from 'react-icons/hi'
 import { AiFillHome } from 'react-icons/ai'
 
-import Bottom from './Bottom-Nav/Bottom'
 import Nav from './Nav/Nav'
 import Resume from '../img/AyannaMiller2021.pdf'
 
-import './Header.css'
-import '../components/Nav/NavList.css'
 
 const Header = () => {
   const nav = ['About', 'Projects', 'Resume']
@@ -147,7 +147,6 @@ const Header = () => {
           </h1>
         </div>
       </header>
-      <Bottom />
     </div>
   )
 }
