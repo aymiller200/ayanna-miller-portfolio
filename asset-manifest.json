@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ayanna-miller-portfolio/static/css/main.ae1c5ce7.chunk.css",
-    "main.js": "/ayanna-miller-portfolio/static/js/main.3afcd1f2.chunk.js",
-    "main.js.map": "/ayanna-miller-portfolio/static/js/main.3afcd1f2.chunk.js.map",
+    "main.css": "/ayanna-miller-portfolio/static/css/main.efa3f18c.chunk.css",
+    "main.js": "/ayanna-miller-portfolio/static/js/main.3df8b58d.chunk.js",
+    "main.js.map": "/ayanna-miller-portfolio/static/js/main.3df8b58d.chunk.js.map",
     "runtime-main.js": "/ayanna-miller-portfolio/static/js/runtime-main.a6e2acfd.js",
     "runtime-main.js.map": "/ayanna-miller-portfolio/static/js/runtime-main.a6e2acfd.js.map",
     "static/js/2.ddd0e40d.chunk.js": "/ayanna-miller-portfolio/static/js/2.ddd0e40d.chunk.js",
     "static/js/2.ddd0e40d.chunk.js.map": "/ayanna-miller-portfolio/static/js/2.ddd0e40d.chunk.js.map",
     "index.html": "/ayanna-miller-portfolio/index.html",
-    "static/css/main.ae1c5ce7.chunk.css.map": "/ayanna-miller-portfolio/static/css/main.ae1c5ce7.chunk.css.map",
+    "static/css/main.efa3f18c.chunk.css.map": "/ayanna-miller-portfolio/static/css/main.efa3f18c.chunk.css.map",
     "static/js/2.ddd0e40d.chunk.js.LICENSE.txt": "/ayanna-miller-portfolio/static/js/2.ddd0e40d.chunk.js.LICENSE.txt",
     "static/media/AyannaMiller2021.15bb6044.pdf": "/ayanna-miller-portfolio/static/media/AyannaMiller2021.15bb6044.pdf",
     "static/media/AboutCorner.css": "/ayanna-miller-portfolio/static/media/abique.3e12d01f.jpeg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.a6e2acfd.js",
     "static/js/2.ddd0e40d.chunk.js",
-    "static/css/main.ae1c5ce7.chunk.css",
-    "static/js/main.3afcd1f2.chunk.js"
+    "static/css/main.efa3f18c.chunk.css",
+    "static/js/main.3df8b58d.chunk.js"
   ]
 }
