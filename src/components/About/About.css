@@ -53,6 +53,7 @@
 .email{
   color: white; 
   text-decoration: none;
+  word-wrap: break-word;
 }
 
 @media(max-width: 970px){

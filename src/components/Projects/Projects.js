@@ -96,7 +96,7 @@ const Projects = () => {
                       : curSlide === 2
                       ? 'https://github.com/aymiller200/bbclient'
                       : curSlide === 3
-                      ? 'https://github.com/aymiller200/API-pokemon'
+                      ? 'https://github.com/aymiller200/catch-a-pokemon/tree/master'
                       : curSlide === 4
                       ? 'https://github.com/aymiller200/red-badge-client'
                       : 'https://github.com/aymiller200/basic-stencil'
@@ -116,7 +116,7 @@ const Projects = () => {
                       : curSlide === 2
                       ? 'https://arm-my-btnmash.herokuapp.com/'
                       : curSlide === 3
-                      ? 'https://aymiller200.github.io/API-pokemon/'
+                      ? 'https://aymiller200.github.io/catch-a-pokemon/'
                       : curSlide === 4
                       ? 'https://am-ontour.herokuapp.com/'
                       : 'https://aymiller200.github.io/stencil-react-app/'
@@ -129,44 +129,38 @@ const Projects = () => {
                 </a>
               </div>
               <div className="text-slide-container">
-               
                 <h4 className="project-text" id="1">
                   A React application created with my own custom Stencil web
                   components published to NPM. Allows the user to view dog
                   images and save those images to their favorites. Utilizes data
                   fetched from the Dog CEO API.
                 </h4>
-              
-               
+
                 <h4 className="project-text" id="2">
                   A code-along dice rolling game utilizing vanilla JS with a
                   focus on DOM events, DOM manipulation, and styling.
                 </h4>
-              
-               
+
                 <h4 className="project-text" id="3">
                   A full stack application. Allows users to register, login, and
                   review video games. Client side is built out in React, back
                   end utilizes Node and SQL.
                 </h4>
-              
-               
+
                 <h4 className="project-text" id="4">
-                  This app allows users to search or click through Pokemon with
+                  This React app allows users to search or click through Pokemon with
                   data fetched from the Poke API.
                 </h4>
-              
-         
+
                 <h4 className="project-text" id="5">
                   On Tour is a full stack application aimed towards touring
                   indepedent musicians looking for a safe place to stay while
-                  they are on the road. Users can register as a host, as a guest,
-                  or both. Guests have the ability to book with hosts, and the
-                  two can communicate with eachother via the app. Client side is
-                  built out in React and TypeScript, while the back end utilizes
-                  Node and SQL.
+                  they are on the road. Users can register as a host, as a
+                  guest, or both. Guests have the ability to book with hosts,
+                  and the two can communicate with eachother via the app. Client
+                  side is built out in React and TypeScript, while the back end
+                  utilizes Node and SQL.
                 </h4>
-              
               </div>
             </div>
             <div className="slider-right-container">
