@@ -1,5 +1,5 @@
 import { BsLinkedin, BsGithub, BsFillFileEarmarkPdfFill } from 'react-icons/bs'
-import Resume from '../../../img/AyannaMiller2021.pdf'
+import Resume from '../../../img/MyResume.pdf'
 
 import './Social.css'
 

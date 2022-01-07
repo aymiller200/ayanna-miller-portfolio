@@ -6,7 +6,7 @@ import { HiOutlineMenu } from 'react-icons/hi'
 import { AiFillHome } from 'react-icons/ai'
 
 import Nav from './Nav/Nav'
-import Resume from '../img/AyannaMiller2021.pdf'
+import Resume from '../img/MyResume.pdf'
 
 
 const Header = () => {
