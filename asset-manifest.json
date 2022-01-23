@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ayanna-miller-portfolio/static/css/main.efa3f18c.chunk.css",
-    "main.js": "/ayanna-miller-portfolio/static/js/main.5c53e156.chunk.js",
-    "main.js.map": "/ayanna-miller-portfolio/static/js/main.5c53e156.chunk.js.map",
+    "main.js": "/ayanna-miller-portfolio/static/js/main.1e277b9a.chunk.js",
+    "main.js.map": "/ayanna-miller-portfolio/static/js/main.1e277b9a.chunk.js.map",
     "runtime-main.js": "/ayanna-miller-portfolio/static/js/runtime-main.a6e2acfd.js",
     "runtime-main.js.map": "/ayanna-miller-portfolio/static/js/runtime-main.a6e2acfd.js.map",
     "static/js/2.ddd0e40d.chunk.js": "/ayanna-miller-portfolio/static/js/2.ddd0e40d.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.a6e2acfd.js",
     "static/js/2.ddd0e40d.chunk.js",
     "static/css/main.efa3f18c.chunk.css",
-    "static/js/main.5c53e156.chunk.js"
+    "static/js/main.1e277b9a.chunk.js"
   ]
 }
