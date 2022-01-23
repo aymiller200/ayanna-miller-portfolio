@@ -137,7 +137,7 @@ const Projects = () => {
                 </h4>
 
                 <h4 className="project-text" id="2">
-                  A static web application created during a 70 hour JavaScript course on Udemy. This project utilizes everything learned in the course, from simple concepts, to MVC architecture and JavaScript Modules.
+                  A static web application created during a 70 hour JavaScript course on Udemy. This project utilizes everything learned in the course, from simple concepts and methods, to MVC architecture and JavaScript Modules.
                 </h4>
 
                 <h4 className="project-text" id="3">
