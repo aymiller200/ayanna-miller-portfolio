@@ -69,7 +69,7 @@ const Projects = () => {
           {curSlide === 0
             ? 'Play Fetch'
             : curSlide === 1
-            ? 'Pig Game'
+            ? 'Forkify'
             : curSlide === 2
             ? 'Btn Mash'
             : curSlide === 3
@@ -92,7 +92,7 @@ const Projects = () => {
                     curSlide === 0
                       ? 'https://github.com/aymiller200/basic-stencil'
                       : curSlide === 1
-                      ? 'https://github.com/aymiller200/pig-game'
+                      ? 'https://github.com/aymiller200/forkify-am'
                       : curSlide === 2
                       ? 'https://github.com/aymiller200/bbclient'
                       : curSlide === 3
@@ -112,7 +112,7 @@ const Projects = () => {
                     curSlide === 0
                       ? 'https://aymiller200.github.io/stencil-react-app/'
                       : curSlide === 1
-                      ? 'https://aymiller200.github.io/pig-game/'
+                      ? 'https://forkify-ayanna.netlify.app/'
                       : curSlide === 2
                       ? 'https://arm-my-btnmash.herokuapp.com/'
                       : curSlide === 3
@@ -137,8 +137,7 @@ const Projects = () => {
                 </h4>
 
                 <h4 className="project-text" id="2">
-                  A code-along dice rolling game utilizing vanilla JS with a
-                  focus on DOM events, DOM manipulation, and styling.
+                  A static web application created during a 70 hour JavaScript course on Udemy. This project utilizes everything learned in the course, from simple concepts, to MVC architecture and JavaScript Modules.
                 </h4>
 
                 <h4 className="project-text" id="3">
