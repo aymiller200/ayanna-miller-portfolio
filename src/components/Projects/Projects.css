@@ -284,10 +284,8 @@
 @media(max-width: 775px){
 
   .text-slide-container {
-    width: 20rem;
+    /* width: 20rem; */
     height: 100%;
-    
-    /* padding: 2rem; */
 
   }
 
@@ -321,6 +319,7 @@
   .text-slide-container {
     width: 100%;
     margin: 10px;
+    padding-left: 1rem;
     
   }
 

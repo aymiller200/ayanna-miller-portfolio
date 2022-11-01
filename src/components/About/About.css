@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: space-between;
+  align-content: center;
   justify-content: flex-end;
   align-items: center;
   background-image: linear-gradient(
@@ -41,11 +41,14 @@
 }
 
 .about-paragraph{
- 
+  height: 50%; 
+  overflow-y: scroll;
   color: white;
   font-weight: normal;
   letter-spacing: .1rem;
   width: 100%;
+  height: 50%;
+  overflow-y: scroll;
   padding: 1rem;
   margin: 0 1rem 0 1rem;
   background: rgba(0, 0, 0, 0.301);
@@ -61,25 +64,18 @@
 }
 
 @media(max-width: 970px){
-  .about-paragraph {
-    overflow-y: scroll;
-    height: 50%;   
+
+
+  .about-title{
+    margin-top: 15%;
+    font-size: 2rem;
   }
 }
 
-@media(max-width: 785px){
-  .about-title{
-    font-size: xx-large;
-  } 
-}
+@media(min-width: 1024px){
+  .about-paragraph{
 
-@media(max-height: 640px){
-  .about-title{
-    font-size: xx-large;
-  }
-
-  .about-paragraph {
-    overflow-y: scroll;
-    height: 50%;
+    overflow-y: hidden;
+   
   }
 }
