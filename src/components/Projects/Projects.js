@@ -2,7 +2,11 @@ import './Projects.css'
 
 import { useState, useEffect } from 'react'
 
-import { BsGithub } from 'react-icons/bs'
+import {
+  BsGithub,
+  BsArrowRightCircleFill,
+  BsArrowLeftCircleFill,
+} from 'react-icons/bs'
 import { FaDesktop } from 'react-icons/fa'
 
 import Footer from '../Footer/Footer'
@@ -65,28 +69,30 @@ const Projects = () => {
       <h1 className={!hidden ? 'projects-title' : 'hidden'}>Projects</h1>
 
       <div className={!hidden ? 'project' : 'hidden'}>
-        <h5 className="project-title">
-          {curSlide === 0
-            ? 'Play Fetch'
-            : curSlide === 1
-            ? 'Forkify'
-            : curSlide === 2
-            ? 'Btn Mash'
-            : curSlide === 3
-            ? 'Poke App'
-            : curSlide === 4
-            ? 'On Tour'
-            : null}
-        </h5>
         <div className="project-container">
           <div className="slider-container">
             <div className="slider-left-container">
               <button className="slider-left" onClick={prevSlide}>
-                &larr;
+                <BsArrowLeftCircleFill />
               </button>
             </div>
             <div className="project-text-container">
               <div className="links">
+                <div className="title">
+                <h5 className="project-title">
+                  {curSlide === 0
+                    ? 'Play Fetch'
+                    : curSlide === 1
+                    ? 'Forkify'
+                    : curSlide === 2
+                    ? 'Btn Mash'
+                    : curSlide === 3
+                    ? 'Poke App'
+                    : curSlide === 4
+                    ? 'On Tour'
+                    : null}
+                </h5>
+                </div>
                 <a
                   href={
                     curSlide === 0
@@ -137,7 +143,10 @@ const Projects = () => {
                 </h4>
 
                 <h4 className="project-text" id="2">
-                  A static web application created during a 70 hour JavaScript course on Udemy. This project utilizes everything learned in the course, from simple concepts and methods, to MVC architecture and JavaScript Modules.
+                  A static web application created during a 70 hour JavaScript
+                  course on Udemy. This project utilizes everything learned in
+                  the course, from simple concepts and methods, to MVC
+                  architecture and JavaScript Modules.
                 </h4>
 
                 <h4 className="project-text" id="3">
@@ -147,16 +156,14 @@ const Projects = () => {
                 </h4>
 
                 <h4 className="project-text" id="4">
-                  This React app allows users to search or click through Pokemon with
-                  data fetched from the Poke API.
+                  This React app allows users to search or click through Pokemon
+                  with data fetched from the Poke API.
                 </h4>
 
                 <h4 className="project-text" id="5">
-                  On Tour is a full stack application aimed towards touring
+                  A full stack application aimed towards touring
                   indepedent musicians looking for a safe place to stay while
-                  they are on the road. Users can register as a host, as a
-                  guest, or both. Guests have the ability to book with hosts,
-                  and the two can communicate with eachother via the app. Client
+                  they are on the road. Client
                   side is built out in React and TypeScript, while the back end
                   utilizes Node and SQL.
                 </h4>
@@ -164,7 +171,7 @@ const Projects = () => {
             </div>
             <div className="slider-right-container">
               <button className="slider-right" onClick={nextSlide}>
-                &rarr;
+                <BsArrowRightCircleFill />
               </button>
             </div>
           </div>

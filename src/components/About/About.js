@@ -33,20 +33,17 @@ const About = () => {
         <AboutCorner />
         <div className="about">
           <h1 className={!hidden ? 'about-title' : 'hidden'}>About</h1>
+      
           <h2 className={!hidden ? 'about-paragraph' : 'hidden'}>
-            Since my graduation from Eleven Fifty Academy's immersive six month
-            web development bootcamp, I have spent my time fostering a deeper
-            and more well rounded knowledge of technologies and frameworks such
-            as Javascript and React, diving into the depths of UX/UI, getting my feet wet with libraries such as Stencil, and exploring C# in terms of game design.
+            Hello and thanks for checking out my portfolio! A little about myself: I am a graduate of Eleven Fifty Academy's immersive six month
+            web development bootcamp. I have a passion for sleak and unique front end design, and a mighty fine grasp on TypeScript, React, Next.js, CSS, and HTML. I am quick learner with a desire to reach passed the walls of my comfort zone and into the unknown. My last position had me creating proofs of concept with Blazor, C#, and .Net and diving into the depths of database design with SqlDBM and Microsoft SQL Server! I strive to create and collaborate, to be part of a team that's moving forward, to always be reaching for that next goal. 
+        
+         
             <br />
             <br />
-            Through countless projects, courses, and bugs, I have a confidence
-            in what I know, a desire to learn so much more, and a passion for
-            creating, problem solving, and thinking outside of the div.
-            <br />
-            <br />
-            If you would like to know more contact me at <a href="mailto:aymiller200@gmail.com" target="_blank" rel="noreferrer" className="email"><u>aymiller200@gmail.com</u></a>.
+            If you would like to chat about what I am currently working on, or want to know more about my past experience contact me at <a href="mailto:aymiller200@gmail.com" target="_blank" rel="noreferrer" className="email"><u>aymiller200@gmail.com</u></a>.
           </h2>
+        
            <Social hidden={hidden}/> 
         </div>
       </div>
