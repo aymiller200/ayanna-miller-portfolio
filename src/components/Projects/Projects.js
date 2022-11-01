@@ -80,14 +80,13 @@ const Projects = () => {
               <div className="links">
                 <div className="title">
                 <h5 className="project-title">
-                  {curSlide === 0
-                    ? 'Play Fetch'
-                    : curSlide === 1
-                    ? 'Forkify'
+                  {curSlide === 0 ? 'When in Rome' 
+                  : curSlide === 1 ?
+                   'Play Fetch'
                     : curSlide === 2
-                    ? 'Btn Mash'
+                    ? 'Forkify'
                     : curSlide === 3
-                    ? 'Poke App'
+                    ? 'Btn Mash'
                     : curSlide === 4
                     ? 'On Tour'
                     : null}
@@ -96,16 +95,15 @@ const Projects = () => {
                 <a
                   href={
                     curSlide === 0
-                      ? 'https://github.com/aymiller200/basic-stencil'
-                      : curSlide === 1
-                      ? 'https://github.com/aymiller200/forkify-am'
+                      ? 'https://github.com/aymiller200/when-in-rome' 
+                      : curSlide === 1 ?'https://github.com/aymiller200/basic-stencil'
                       : curSlide === 2
-                      ? 'https://github.com/aymiller200/bbclient'
+                      ? 'https://github.com/aymiller200/forkify-am'
                       : curSlide === 3
-                      ? 'https://github.com/aymiller200/catch-a-pokemon/tree/master'
+                      ? 'https://github.com/aymiller200/bbclient'
                       : curSlide === 4
                       ? 'https://github.com/aymiller200/red-badge-client'
-                      : 'https://github.com/aymiller200/basic-stencil'
+                      : 'https://github.com/aymiller200/when-in-rome'
                   }
                   target="_blank"
                   rel="noreferrer"
@@ -116,16 +114,15 @@ const Projects = () => {
                 <a
                   href={
                     curSlide === 0
-                      ? 'https://aymiller200.github.io/stencil-react-app/'
-                      : curSlide === 1
-                      ? 'https://forkify-ayanna.netlify.app/'
+                      ? 'https://main--roman-numeral-conversion-200.netlify.app/'
+                      : curSlide === 1 ? 'https://aymiller200.github.io/stencil-react-app/'
                       : curSlide === 2
-                      ? 'https://arm-my-btnmash.herokuapp.com/'
+                      ? 'https://forkify-ayanna.netlify.app/'
                       : curSlide === 3
-                      ? 'https://aymiller200.github.io/catch-a-pokemon/'
+                      ? 'https://arm-my-btnmash.herokuapp.com/'
                       : curSlide === 4
                       ? 'https://am-ontour.herokuapp.com/'
-                      : 'https://aymiller200.github.io/stencil-react-app/'
+                      : 'https://github.com/aymiller200/when-in-rome'
                   }
                   target="_blank"
                   rel="noreferrer"
@@ -136,30 +133,27 @@ const Projects = () => {
               </div>
               <div className="text-slide-container">
                 <h4 className="project-text" id="1">
+                  A Next.js application utilizing algorithm logic to take a user's input and convert that input from a Roman Numeral to a number, or a number to a Roman Numeral.
+                </h4>
+                <h4 className="project-text" id="2">
                   A React application created with my own custom Stencil web
                   components published to NPM. Allows the user to view dog
                   images and save those images to their favorites. Utilizes data
                   fetched from the Dog CEO API.
                 </h4>
 
-                <h4 className="project-text" id="2">
+                <h4 className="project-text" id="3">
                   A static web application created during a 70 hour JavaScript
                   course on Udemy. This project utilizes everything learned in
                   the course, from simple concepts and methods, to MVC
                   architecture and JavaScript Modules.
                 </h4>
 
-                <h4 className="project-text" id="3">
+                <h4 className="project-text" id="4">
                   A full stack application. Allows users to register, login, and
                   review video games. Client side is built out in React, back
                   end utilizes Node and SQL.
                 </h4>
-
-                <h4 className="project-text" id="4">
-                  This React app allows users to search or click through Pokemon
-                  with data fetched from the Poke API.
-                </h4>
-
                 <h4 className="project-text" id="5">
                   A full stack application aimed towards touring
                   indepedent musicians looking for a safe place to stay while
