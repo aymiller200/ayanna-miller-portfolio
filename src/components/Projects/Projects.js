@@ -111,17 +111,13 @@ const Projects = () => {
                 >
                   <BsGithub className="github" />
                 </a>
-                <a
+                {curSlide === 3 || curSlide ===4 ? null : <a
                   href={
                     curSlide === 0
                       ? 'https://main--roman-numeral-conversion-200.netlify.app/'
                       : curSlide === 1 ? 'https://aymiller200.github.io/stencil-react-app/'
                       : curSlide === 2
                       ? 'https://forkify-ayanna.netlify.app/'
-                      : curSlide === 3
-                      ? 'https://arm-my-btnmash.herokuapp.com/'
-                      : curSlide === 4
-                      ? 'https://am-ontour.herokuapp.com/'
                       : 'https://github.com/aymiller200/when-in-rome'
                   }
                   target="_blank"
@@ -129,7 +125,7 @@ const Projects = () => {
                   className="site-link"
                 >
                   <FaDesktop className="site" />
-                </a>
+                </a>}
               </div>
               <div className="text-slide-container">
                 <h4 className="project-text" id="1">

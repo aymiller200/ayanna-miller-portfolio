@@ -33,12 +33,18 @@ const About = () => {
         <AboutCorner />
         <div className="about">
           <h1 className={!hidden ? 'about-title' : 'hidden'}>About</h1>
-      
           <h2 className={!hidden ? 'about-paragraph' : 'hidden'}>
             Hello and thanks for checking out my portfolio! A little about myself: I am a graduate of Eleven Fifty Academy's immersive six month
-            web development bootcamp. I have a passion for sleak and unique front end design, and a mighty fine grasp on TypeScript, React, Next.js, CSS, and HTML. I am quick learner with a desire to reach passed the walls of my comfort zone and into the unknown. My last position had me creating proofs of concept with Blazor, C#, and .Net and diving into the depths of database design with SqlDBM and Microsoft SQL Server! I strive to create and collaborate, to be part of a team that's moving forward, to always be reaching for that next goal. 
-        
-         
+            web development bootcamp. I have a passion for sleak and unique front end design, and a mighty fine grasp on TypeScript, React, Next.js, CSS, and HTML. I am quick learner with a desire to reach past the walls of my comfort zone and into the unknown. 
+            <br />
+            <br />
+            I am currently working as a full stack engineer at JD/Finishline with emphasis on Javascript, React, Java, and MongoDB. I develope manager and associate facing apps that help stores track metrics, receive and send out shipments, orders, and transfers, and gain visibility on associate compliance. 
+            <br />
+            <br />
+            My last position before JD/Finishline had me creating proofs of concept with Blazor, C#, and .Net and diving into the depths of database design with SqlDBM and Microsoft SQL Server! 
+            <br />
+            <br />
+            I strive to create and collaborate, to be part of a team that's moving forward, to always be reaching for that next goal. 
             <br />
             <br />
             If you would like to chat about what I am currently working on, or want to know more about my past experience contact me at <a href="mailto:aymiller200@gmail.com" target="_blank" rel="noreferrer" className="email"><u>aymiller200@gmail.com</u></a>.
